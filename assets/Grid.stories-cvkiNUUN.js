@@ -1,5 +1,0 @@
-import{j as s}from"./jsx-runtime-C-rOzme_.js";import"./iframe--qV5V2YS.js";import"./preload-helper-CQGs7Tvr.js";var n="lcjrt30";function a({children:r}){return s.jsx("div",{className:n,children:r})}a.__docgenInfo={description:"",methods:[],displayName:"Grid",props:{children:{required:!0,tsType:{name:"ReactNode"},description:"그리드 내부에 렌더링될 요소들 (gap 16 고정)"}}};const d=r=>{const o=["#ffadad","#ffd6a5","#fdffb6","#caffbf","#9bf6ff","#a0c4ff","#bdb2ff"];return Array.from({length:r},(i,t)=>s.jsxs("div",{style:{height:"150px",width:"100%",backgroundColor:o[t%o.length],borderRadius:"8px",display:"flex",justifyContent:"center",alignItems:"center",fontSize:"16px",color:"#333",fontWeight:"bold",padding:"16px",boxSizing:"border-box"},children:["Item ",t+1]},t))},p={title:"Molecules/Grid",component:a,parameters:{layout:"fullscreen"},tags:["autodocs"]},e={args:{children:d(12)}};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`{
-  args: {
-    children: generateGridItems(12)
-  }
-}`,...e.parameters?.docs?.source}}};const m=["Default"];export{e as Default,m as __namedExportsOrder,p as default};
